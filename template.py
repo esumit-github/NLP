@@ -8,7 +8,7 @@ from nbconvert.preprocessors import ExecutePreprocessor
 # instead of printing them the best practice is to log everything
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = '1.1_NLP_Basics'
+project_name = '1.2_NLP_BoW_TFIDF_Word2Vec'
 
 list_of_files = [
     #".github/workflows/.gitkeep",
@@ -25,7 +25,7 @@ list_of_files = [
     f"{project_name}/requirements.txt",
     f"{project_name}/commands.txt",
     f"{project_name}/research/trials.ipynb",
-    f"{project_name}/NLP_Basics.py"
+    f"{project_name}/NLP_BoW_TFIDF_Word2Vec.py"
 ]
 
 
